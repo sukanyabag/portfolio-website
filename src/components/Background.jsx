@@ -1,0 +1,12 @@
+/** Slow-drifting colour fields + faint grid + grain. Sits behind everything. */
+export default function Background() {
+  return (
+    <div className="bg" aria-hidden="true">
+      <div className="bg__blob bg__blob--1" />
+      <div className="bg__blob bg__blob--2" />
+      <div className="bg__blob bg__blob--3" />
+      <div className="bg__grid" />
+      <div className="bg__grain" />
+    </div>
+  )
+}

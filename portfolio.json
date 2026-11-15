@@ -1,0 +1,498 @@
+{
+  "meta": {
+    "title": "Sukanya Bag — Lead Applied AI Engineer, Axtria",
+    "description": "Sukanya Bag is Lead Applied AI Engineer at Axtria's Agentic AI Center of Excellence, building agentic, generative and multimodal AI systems. 4 US patents filed, 4 IEEE papers.",
+    "updated": "2026-11-15"
+  },
+
+  "theme": {
+    "defaultMode": "dark",
+    "accent": "#4fa0f8",
+    "accent2": "#76fb96",
+    "accent3": "#62cdc7"
+  },
+
+  "sections": [
+    { "id": "about",          "title": "About",                   "icon": "user",       "nav": true,  "visible": true },
+    { "id": "experience",     "title": "Experience",              "icon": "briefcase",  "nav": true,  "visible": true },
+    { "id": "projects",       "title": "Projects",                "icon": "folder",     "nav": true,  "visible": true, "kicker": "Recent R&D, at work and on my own time." },
+    { "id": "publications",   "title": "Publications",            "icon": "book",       "nav": true,  "visible": true },
+    { "id": "patents",        "title": "Patents",                 "icon": "scroll",     "nav": false, "visible": true, "kicker": "Filed with the USPTO." },
+    { "id": "skills",         "title": "Skills",                  "icon": "sparkles",   "nav": false, "visible": true },
+    { "id": "honors",         "title": "Honors & Awards",         "icon": "trophy",     "nav": false, "visible": true },
+    { "id": "community",      "title": "Writing & Community",     "icon": "heart",      "nav": false, "visible": true },
+    { "id": "certifications", "title": "Certifications",          "icon": "award",      "nav": false, "visible": true },
+    { "id": "education",      "title": "Education",               "icon": "graduation", "nav": false, "visible": true },
+    { "id": "hobbies",        "title": "Hobbies",                 "icon": "gamepad",    "nav": false, "visible": true, "kicker": "Off the clock." },
+    { "id": "contact",        "title": "Contact",                 "icon": "send",       "nav": true,  "visible": true }
+  ],
+
+  "profile": {
+    "name": "Sukanya Bag",
+    "initials": "SB",
+    "greeting": "Hello, I'm",
+    "role": "Lead Applied AI Engineer - Axtria, Agentic AI CoE",
+    "previousRole": "Ex Sr. AI Research Engineer, Genpact AI Labs",
+    "tagline": "I build agentic, generative and multimodal AI systems, and take them from research prototype to production.",
+    "location": "Bengaluru, India",
+    "locationLink": "https://maps.google.com/?q=Bengaluru",
+    "avatar": "/me.png",
+    "available": false,
+    "availabilityText": "AI Instructor @ Topmate.io",
+    "resumeUrl": "",
+    "summary": "I'm an AI research engineer in applied AI/ML with **4 years building agentic, generative and multimodal AI systems** across healthcare, finance, manufacturing and retail.\n\nMy work spans three areas:\n\n- **Domain-adapted reasoning models**, built through fine-tuning and post-training with SFT, LoRA/QLoRA, DPO, SimPO, GRPO, GSPO and RL with verifiable rewards (RLVR).\n- **Generative and multimodal solutions** across computer vision, NLP and deep RL, from research prototype to scalable production.\n- **Production AI pipelines** with MLOps, AgentOps and LLMOps on AWS, Azure and GCP, with a focus on reliability, explainability and safety.\n\nI enjoy working where multimodal models, deep RL and agentic systems meet, especially when research has a clear path to production, traceability and explainability are built in, and the result is greater human productivity.",
+    "now": [
+      "Leading agentic AI engineering at Axtria's Agentic AI Center of Excellence",
+      "Teaching applied AI as an instructor on Topmate.io",
+      "Writing about agentic AI on The AI Brief"
+    ]
+  },
+
+  "stats": [
+    { "value": "4+", "label": "Years in applied AI" },
+    { "value": "4", "label": "US patents filed" },
+    { "value": "4", "label": "IEEE papers" },
+    { "value": "7+", "label": "Years writing on AI/ML" }
+  ],
+
+  "contact": {
+    "email": "sukannya472@gmail.com",
+    "composeVia": "gmail",
+    "subject": "Hello Sukanya",
+    "phone": "",
+    "title": "Let's build AI that earns its place in production.",
+    "text": "Research collaborations, speaking, mentoring or a hard applied-AI problem: my inbox is open.",
+    "socials": [
+      { "name": "GitHub",   "url": "https://github.com/sukanyabag",         "icon": "github" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/sukannya/", "icon": "linkedin" },
+      { "name": "The AI Brief", "url": "https://ai-digest-phi.vercel.app/", "icon": "book" },
+      { "name": "All links", "url": "https://bio.link/sukannya",            "icon": "link" }
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "Axtria · Agentic AI Center of Excellence",
+      "role": "Lead Applied AI Engineer",
+      "href": "https://www.axtria.com",
+      "logo": "",
+      "location": "Bengaluru, India",
+      "start": "Nov 2026",
+      "end": "Present",
+      "tags": ["Agentic AI", "Life Sciences"],
+      "highlights": [
+        "Leading agentic AI engineering in Axtria's Agentic AI Center of Excellence."
+      ]
+    },
+    {
+      "company": "Genpact · AI Practice & Innovation Labs",
+      "role": "Sr. AI/ML Research Engineer",
+      "href": "https://www.genpact.com",
+      "logo": "",
+      "location": "Bengaluru, India",
+      "start": "Mar 2025",
+      "end": "Nov 2026",
+      "tags": ["Agentic AI", "LangGraph", "Deep Agents", "Neo4j", "GRPO", "VLMs", "vLLM"],
+      "highlights": [
+        "Built an enterprise-grade agentic platform for legacy code transformation across languages, frameworks and cloud providers, using LangChain Deep Agents with a self-correcting orchestrator and 5 subagents (planner → diagnostic → remediation → execution → live test). Every repo runs in an isolated gVisor-sandboxed container.",
+        "Replaced vector-DB retrieval with Neo4j knowledge-graph traversal over import edges for cascade impact analysis: 94.2% migration accuracy (+23 pp over OpenRewrite), 79% lower LLM token cost, 92× faster planning, 2.1% rollback rate, with human-in-the-loop plan approval.",
+        "Developed a clinical decision support 7B VLM for Med-VQA, temporal diagnosis in radiology and pathology, and drug interaction analysis. Vision-guided chain-of-thought with a 4-stage pipeline (domain pretraining → SFT → DPO → GRPO) on 600K+ medical samples reached 90.4% VQA accuracy, +14.7% over LLaVA-Med. Deployed on Azure Container Apps with FastAPI and vLLM (4× faster inference) and real-time safety scoring.",
+        "Designed an agentic RL framework to fine-tune small language models on multi-tool trajectories: +30% task success, +40% tool-routing accuracy, 35% fewer invalid tool calls, with a trajectory memory that reuses past traces on unseen tasks.",
+        "Built a multimodal retrieval system for temporal video QnA with LangGraph agents, a knowledge graph and hybrid memory, grounding answers to any region or timestamp: +28% retrieval accuracy, 10× faster ingestion, 30% faster responses, 40% lower cost."
+      ]
+    },
+    {
+      "company": "Genpact",
+      "role": "Data Scientist (AI/ML/Gen AI Engineer)",
+      "href": "https://www.genpact.com",
+      "logo": "",
+      "location": "Bengaluru, India",
+      "start": "Jul 2023",
+      "end": "Mar 2025",
+      "tags": ["Multimodal RAG", "Computer Vision", "YOLO", "NLP", "Azure"],
+      "highlights": [
+        "Built a real-time defect detection system for Genpact's Intelligent Fleet Management platform, training YOLO12 on 5K+ augmented 8K images with custom patch-based learning (78% precision/F1).",
+        "Optimised serving with a CPU-only sliced inference pipeline, cutting latency by 60% and deployment cost by 80%.",
+        "Researched image extraction and retrieval for multimodal RAG, published at IEEE ICECET 2024 and filed as a US patent."
+      ]
+    },
+    {
+      "company": "Genpact",
+      "role": "Data Science Intern",
+      "href": "https://www.genpact.com",
+      "logo": "",
+      "location": "Bengaluru, India",
+      "start": "Jan 2023",
+      "end": "Jul 2023",
+      "tags": ["Machine Learning", "NLP"],
+      "highlights": []
+    },
+    {
+      "company": "IIIT Hyderabad",
+      "role": "Summer Research Intern, AI/ML",
+      "href": "https://www.iiit.ac.in",
+      "logo": "",
+      "location": "Hyderabad, India",
+      "start": "May 2022",
+      "end": "Jul 2022",
+      "tags": ["NLP", "Machine Translation"],
+      "highlights": [
+        "Research on machine translation for low-resource Indian languages."
+      ]
+    },
+    {
+      "company": "Indian Institute of Technology, Bombay",
+      "role": "Machine Learning Engineer Intern",
+      "href": "https://www.iitb.ac.in",
+      "logo": "",
+      "location": "Mumbai, India",
+      "start": "Jul 2021",
+      "end": "Jan 2022",
+      "tags": ["NLP", "REST APIs"],
+      "highlights": []
+    },
+    {
+      "company": "iNeuron.ai",
+      "role": "Data Science Trainee",
+      "href": "https://ineuron.ai",
+      "logo": "",
+      "location": "Bengaluru, India",
+      "start": "Sep 2021",
+      "end": "Dec 2021",
+      "tags": ["Machine Learning", "NLP", "Text Generation"],
+      "highlights": [
+        "Worked on free-form text generation for content creators."
+      ]
+    },
+    {
+      "company": "HemansAI",
+      "role": "NLP Engineer Intern",
+      "href": "",
+      "logo": "",
+      "location": "Remote",
+      "start": "Dec 2020",
+      "end": "Feb 2021",
+      "tags": ["NLP", "Python"],
+      "highlights": []
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Agentic Migration Foundry",
+      "category": "Enterprise platform · Code modernization",
+      "period": "2025–26",
+      "featured": true,
+      "pitch": "Upgrades entire legacy codebases on its own, and proves every change works before a human signs off.",
+      "description": "Framework, language and cloud-SDK migrations eat months of engineering time, and file-by-file copilots miss changes that ripple across a repo. AMF maps the whole codebase into a Neo4j dependency graph, plans the migration from it, then a self-correcting orchestrator and five specialist subagents diagnose, fix, run and live-test every change inside an isolated gVisor sandbox. Engineers review and edit the plan before anything executes.",
+      "metrics": [
+        { "value": "94.2%", "label": "migration accuracy vs 58.1% for GitHub Copilot (47 repos)" },
+        { "value": "10×", "label": "faster planning" },
+        { "value": "5–7×", "label": "lower token cost" },
+        { "value": "2.1%", "label": "rollback rate" }
+      ],
+      "tags": ["Agentic AI", "LangGraph", "Deep Agents", "Neo4j", "Human-in-the-loop"],
+      "links": []
+    },
+    {
+      "title": "TrialPilot",
+      "category": "Healthcare AI · Clinical trials",
+      "period": "2026",
+      "featured": false,
+      "pitch": "Matches patients to the clinical trials they qualify for, with reasons a clinician can check.",
+      "description": "Eligibility criteria are long and full of negations and time windows, so manual screening is slow and keyword search misses patients. TrialPilot grounds every criterion to SNOMED CT, RxNorm and LOINC in a Neo4j trial knowledge graph, scores candidates with a fine-tuned decision model (Laya) plus neurosymbolic reranking, and gives the clinician a calibrated shortlist, not a verdict.",
+      "metrics": [
+        { "value": "56→89%", "label": "matching accuracy on 150 synthetic patient–trial pairs" },
+        { "value": "~10×", "label": "lower cost with the fine-tuned model" }
+      ],
+      "tags": ["Agentic AI", "Healthcare", "Fine-tuning", "Neo4j"],
+      "links": []
+    },
+    {
+      "title": "TheArxplorer",
+      "category": "Research tool · Personal project",
+      "period": "Dec 2025 – Apr 2026",
+      "featured": false,
+      "pitch": "Turns the daily flood of arXiv papers into a workspace you can ask questions.",
+      "description": "Save papers as they land, then ask across them. A LangGraph RAG pipeline decides whether each question needs your saved papers or the live web (Tavily, Firecrawl), and every answer comes back with citations. Users bring their own API keys, and every call is traced in LangSmith and Logfire.",
+      "metrics": [
+        { "value": "50", "label": "concurrent users supported" },
+        { "value": "Free-tier", "label": "APIs only, with secure bring-your-own-key" }
+      ],
+      "tags": ["Agentic AI", "RAG", "LangGraph", "React"],
+      "links": [{ "label": "View project", "url": "https://bit.ly/4xjBayR", "icon": "globe" }]
+    },
+    {
+      "title": "MedQwen-VGR1",
+      "category": "Healthcare AI · Vision-language model · IEEE",
+      "period": "2025–26",
+      "featured": true,
+      "pitch": "A 7B medical vision-language model that shows its reasoning on the image, not just an answer.",
+      "description": "Clinicians can't act on a black-box answer. MedQwen-VGR1 answers questions about radiology and pathology images, tracks a patient's scans over time and checks drug interactions, writing a step-by-step rationale grounded in the image regions it looked at. Trained in four stages (domain pretraining → SFT → DPO → GRPO) and served with vLLM on Azure with real-time safety scoring.",
+      "metrics": [
+        { "value": "90.4%", "label": "Med-VQA accuracy" },
+        { "value": "+14.7%", "label": "over LLaVA-Med" },
+        { "value": "600K+", "label": "medical training samples" },
+        { "value": "4×", "label": "faster inference with vLLM" }
+      ],
+      "tags": ["VLMs", "Healthcare", "GRPO", "Fine-tuning"],
+      "links": [{ "label": "Read the paper", "url": "https://ieeexplore.ieee.org/document/11633084", "icon": "book" }]
+    },
+    {
+      "title": "Agentic RL for SLMs",
+      "category": "Agent training · Patent filed · IEEE",
+      "period": "2025",
+      "featured": false,
+      "pitch": "Teaches small, cheap language models to pick and call the right tools.",
+      "description": "Small models cost little to run but fumble multi-step tool use. This framework fine-tunes them with reinforcement learning on full multi-tool trajectories, and a trajectory memory lets the agent reuse what worked before when it meets a new task.",
+      "metrics": [
+        { "value": "+30%", "label": "task success" },
+        { "value": "+40%", "label": "tool-routing accuracy" },
+        { "value": "−35%", "label": "invalid tool calls" }
+      ],
+      "tags": ["Agentic AI", "GRPO", "Fine-tuning"],
+      "links": [{ "label": "Read the paper", "url": "https://ieeexplore.ieee.org/document/11632426", "icon": "book" }]
+    },
+    {
+      "title": "Temporal Video QnA",
+      "category": "Multimodal AI · Video understanding",
+      "period": "2025",
+      "featured": false,
+      "pitch": "Ask a question about a video and get the exact moment, and the spot in the frame, that answers it.",
+      "description": "Long videos are hard to search. This system indexes video with LangGraph agents, a knowledge graph and hybrid memory, so each answer points to a precise timestamp and region.",
+      "metrics": [
+        { "value": "+28%", "label": "retrieval accuracy" },
+        { "value": "10×", "label": "faster ingestion" },
+        { "value": "40%", "label": "lower cost" }
+      ],
+      "tags": ["Multimodal RAG", "LangGraph", "Video"],
+      "links": []
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "MedQwen-VGR1: Multimodal Vision-Guided Reasoning Model for Med-VQA, Temporal Diagnosis and Drug Interaction Analysis in Medical Imaging and Pathology",
+      "venue": "IEEE",
+      "date": "Aug 2026",
+      "authors": "",
+      "url": "https://ieeexplore.ieee.org/document/11633084"
+    },
+    {
+      "title": "An E2E Framework to Improve Agentic AI Using GRPO Reasoning and Continuous Memory Based Learning",
+      "venue": "IEEE",
+      "date": "Aug 2026",
+      "authors": "",
+      "url": "https://ieeexplore.ieee.org/document/11632426"
+    },
+    {
+      "title": "A Framework for Enhancing Product Recommender Systems with Knowledge Graph Embeddings, Multi Agents, LLM and Real-Time Image Search",
+      "venue": "ICECET 2025 · IEEE",
+      "date": "2025",
+      "authors": "",
+      "url": "https://ieeexplore.ieee.org/document/11472596"
+    },
+    {
+      "title": "RAG Beyond Text: Enhancing Image Retrieval in RAG Systems",
+      "venue": "ICECET 2024 · IEEE",
+      "date": "2024",
+      "authors": "",
+      "url": "https://ieeexplore.ieee.org/document/10698598"
+    }
+  ],
+
+  "patents": [
+    {
+      "title": "Multi-Modal Image Extraction and Retrieval Using Retrieval Augmented Generation",
+      "venue": "US patent application · published on Justia Patents",
+      "date": "Aug 2026",
+      "url": "https://patents.justia.com/patent/20260154332"
+    },
+    {
+      "title": "Unified 7B Multimodal Reasoning Model for MedVQA, Temporal Diagnosis, Report Generation, and DDI Analysis",
+      "venue": "Filed with USPTO",
+      "date": "2025",
+      "url": ""
+    },
+    {
+      "title": "Speech2Text Agentic Framework for Custom Insights Generation from Audio",
+      "venue": "Filed with USPTO",
+      "date": "2025",
+      "url": ""
+    },
+    {
+      "title": "Agentic RL Framework to Fine-Tune SLMs and Improve Agentic Tool-Calling Accuracy",
+      "venue": "Filed with USPTO",
+      "date": "2025",
+      "url": ""
+    }
+  ],
+
+  "skills": [
+    { "category": "AI & ML", "items": ["Agentic AI", "Generative AI", "Multimodal / VLMs", "Computer Vision", "NLP", "Deep Reinforcement Learning", "RAG & MuRAG", "VQA", "Speech-to-Text", "Text-to-Speech", "Explainable AI", "Responsible AI"] },
+    { "category": "Post-training", "items": ["SFT", "LoRA / QLoRA", "DPO", "SimPO", "GRPO", "GSPO", "RLVR", "RLHF", "Prompt Tuning"] },
+    { "category": "Frameworks", "items": ["PyTorch", "Unsloth", "Hugging Face", "LangChain", "LangGraph", "Deep Agents", "LlamaIndex", "vLLM", "FastAPI", "Neo4j"] },
+    { "category": "Cloud & Ops", "items": ["Azure", "AWS", "GCP", "Azure Cognitive Search", "Docker", "Git", "MLOps", "AgentOps", "LLMOps"] },
+    { "category": "Languages", "items": ["Python", "JavaScript", "SQL"] },
+    { "category": "AI dev tools", "items": ["Claude Code", "GitHub Copilot", "OpenAI Codex"] }
+  ],
+
+  "honors": [
+    {
+      "title": "Winner, Data Science Blogathon 25",
+      "org": "Analytics Vidhya",
+      "date": "Nov 2022",
+      "description": "Ranked 3rd in India's biggest data science blogathon.",
+      "url": "https://datahack.analyticsvidhya.com/contest/data-science-blogathon-25/#WinnerTab"
+    },
+    {
+      "title": "GitHub Starstruck Badge of Honor",
+      "org": "GitHub",
+      "date": "Jul 2022",
+      "description": "Awarded for creating a repository with many stars.",
+      "url": "https://github.com/users/sukanyabag/achievements/starstruck"
+    },
+    {
+      "title": "AWS Machine Learning Scholarship Recipient 2021",
+      "org": "Udacity · AWS",
+      "date": "Jun 2021",
+      "description": "One of 425 global recipients for the AWS Machine Learning Nanodegree.",
+      "url": ""
+    },
+    {
+      "title": "National Level Python Programming Quiz",
+      "org": "AICTE",
+      "date": "May 2020",
+      "description": "Ranked in the top 30 overall with a score of 100/100.",
+      "url": ""
+    }
+  ],
+
+  "community": [
+    {
+      "title": "The AI Brief",
+      "icon": "book",
+      "org": "Founder & Writer",
+      "date": "Present",
+      "description": "My personal AI publication: practical, plain-English write-ups on agentic AI, LLMs and applied research.",
+      "url": "https://ai-digest-phi.vercel.app/",
+      "featured": true
+    },
+    {
+      "title": "Technical Writer, AV Creators Club",
+      "org": "Analytics Vidhya",
+      "date": "Aug 2019 – Present",
+      "description": "Writing on AI/ML and data science.",
+      "url": ""
+    },
+    {
+      "title": "Kernels Expert",
+      "org": "Kaggle",
+      "date": "Mar 2020 – Present",
+      "description": "",
+      "url": ""
+    },
+    {
+      "title": "Technical Writer, AI/ML & Data Science",
+      "org": "Medium",
+      "date": "",
+      "description": "Writing for Python in Plain English, Analytics Vidhya, Mlearning.ai and The Startup.",
+      "url": ""
+    },
+    {
+      "title": "Open Source Contributor",
+      "org": "GitHub",
+      "date": "May 2020 – Present",
+      "description": "Contributing to open-source data science and AI projects.",
+      "url": "https://github.com/sukanyabag"
+    }
+  ],
+
+  "certifications": [
+    { "name": "Certified Data Scientist Associate", "issuer": "DataCamp", "date": "Sep 2024", "url": "" },
+    { "name": "Data Scientist (Python)", "issuer": "DataCamp", "date": "Oct 2022", "url": "" },
+    { "name": "Transformers: Text Classification for NLP Using BERT", "issuer": "LinkedIn", "date": "Dec 2022", "url": "" },
+    { "name": "REST API (Intermediate)", "issuer": "HackerRank", "date": "Feb 2022", "url": "" },
+    { "name": "Certified Python Programmer", "issuer": "Infosys", "date": "Feb 2022", "url": "" },
+    { "name": "TalentNext Training (Java J2EE)", "issuer": "Wipro", "date": "May 2021", "url": "" },
+    { "name": "Cloud Engineering Fundamentals, Cloud App Development, Cloud ML-AI", "issuer": "Google Cloud", "date": "Apr 2021", "url": "" },
+    { "name": "Deep Learning (Keras, Computer Vision, OpenCV, Sequences, Functional API)", "issuer": "Udemy", "date": "Mar 2021", "url": "" },
+    { "name": "Python Programming: From Basics to Advanced", "issuer": "Udemy", "date": "Jan 2021", "url": "" },
+    { "name": "TensorFlow Developer Specialization", "issuer": "DeepLearning.AI", "date": "Sep 2020", "url": "" },
+    { "name": "IBM Data Science Professional Specialization", "issuer": "Coursera", "date": "Sep 2020", "url": "" },
+    { "name": "IBM Data Science Professional Badge", "issuer": "IBM", "date": "Sep 2020", "url": "" },
+    { "name": "Machine Learning (Stanford University)", "issuer": "Coursera", "date": "Aug 2020", "url": "" },
+    { "name": "Certified Specialist: SPSS Statistics", "issuer": "IBM", "date": "Jun 2020", "url": "" }
+  ],
+
+  "hobbies": [
+    {
+      "title": "Avid reader",
+      "icon": "reading",
+      "note": "Mostly lost in literature classics, poetry and contemporary fiction.",
+      "items": [],
+      "more": "Have you read East of Eden? (You should.)"
+    },
+    {
+      "title": "Gamer",
+      "icon": "gamepad",
+      "note": "The list never finishes, btw.",
+      "items": ["Forza", "GTA", "Zelda: BotW & TotK", "Stardew Valley", "Dave the Diver", "The Witcher 3", "Cult of the Lamb"],
+      "more": "\"Just one more run\" is a lie I tell nightly."
+    },
+    {
+      "title": "Motorcycling",
+      "icon": "motorcycle",
+      "note": "Riding trips through the hills.",
+      "items": ["Wayanad", "Coorg", "Chikmagalur", "Ooty"],
+      "more": "+ many more to cover!"
+    },
+    {
+      "title": "Fitness & boxing",
+      "icon": "dumbbell",
+      "note": "Heavy lifting and strength training, plus time in the ring.",
+      "items": ["Strength training", "Muay Thai", "Boxing"],
+      "more": "Yes, I carry all the groceries in one trip."
+    },
+    {
+      "title": "Cooking",
+      "icon": "chef",
+      "note": "I love to cooooook!",
+      "items": [],
+      "more": "Name a Bengali dish. I can make it. Alllll of them."
+    },
+    {
+      "title": "Guitar",
+      "icon": "guitar",
+      "note": "Playing guitar.",
+      "items": [],
+      "more": "Takes requests. Doesn't promise to know them."
+    },
+    {
+      "title": "Digital art",
+      "icon": "palette",
+      "note": "Making art on a screen.",
+      "items": [],
+      "more": "Ctrl+Z is my favourite brush."
+    },
+    {
+      "title": "Eating jhol momos",
+      "icon": "bowl",
+      "note": "A serious hobby, taken very seriously.",
+      "items": [],
+      "more": "Have you tried the jhol momos from Bamey's?"
+    }
+  ],
+
+  "education": [
+    {
+      "school": "Haldia Institute of Technology",
+      "degree": "B.Tech, Computer Science Engineering",
+      "href": "",
+      "logo": "",
+      "start": "2019",
+      "end": "2023",
+      "details": "CGPA 9.31 / 10"
+    }
+  ]
+}
