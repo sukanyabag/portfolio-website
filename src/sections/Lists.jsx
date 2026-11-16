@@ -46,9 +46,13 @@ export function Publications({ publications = [], icon = 'book' }) {
             interactive
             className="card row row--link"
           >
-            <span className="logo">
-              <Icon name={icon} size={18} />
-            </span>
+            {p.logo ? (
+              <Logo src={p.logo} name={p.venue} />
+            ) : (
+              <span className="logo">
+                <Icon name={icon} size={18} />
+              </span>
+            )}
             <div className="row__main">
               <h3>{p.title}</h3>
               <p className="muted">

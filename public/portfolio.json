@@ -75,7 +75,7 @@
       "company": "Axtria · Agentic AI Center of Excellence",
       "role": "Lead Applied AI Engineer",
       "href": "https://www.axtria.com",
-      "logo": "",
+      "logo": "/logos/axtria.svg",
       "location": "Bengaluru, India",
       "start": "Nov 2026",
       "end": "Present",
@@ -88,7 +88,7 @@
       "company": "Genpact · AI Practice & Innovation Labs",
       "role": "Sr. AI/ML Research Engineer",
       "href": "https://www.genpact.com",
-      "logo": "",
+      "logo": "/logos/genpact.png",
       "location": "Bengaluru, India",
       "start": "Mar 2025",
       "end": "Nov 2026",
@@ -105,7 +105,7 @@
       "company": "Genpact",
       "role": "Data Scientist (AI/ML/Gen AI Engineer)",
       "href": "https://www.genpact.com",
-      "logo": "",
+      "logo": "/logos/genpact.png",
       "location": "Bengaluru, India",
       "start": "Jul 2023",
       "end": "Mar 2025",
@@ -120,7 +120,7 @@
       "company": "Genpact",
       "role": "Data Science Intern",
       "href": "https://www.genpact.com",
-      "logo": "",
+      "logo": "/logos/genpact.png",
       "location": "Bengaluru, India",
       "start": "Jan 2023",
       "end": "Jul 2023",
@@ -131,7 +131,7 @@
       "company": "IIIT Hyderabad",
       "role": "Summer Research Intern, AI/ML",
       "href": "https://www.iiit.ac.in",
-      "logo": "",
+      "logo": "/logos/iiit-hyderabad.png",
       "location": "Hyderabad, India",
       "start": "May 2022",
       "end": "Jul 2022",
@@ -144,7 +144,7 @@
       "company": "Indian Institute of Technology, Bombay",
       "role": "Machine Learning Engineer Intern",
       "href": "https://www.iitb.ac.in",
-      "logo": "",
+      "logo": "/logos/iit-bombay.svg",
       "location": "Mumbai, India",
       "start": "Jul 2021",
       "end": "Jan 2022",
@@ -155,7 +155,7 @@
       "company": "iNeuron.ai",
       "role": "Data Science Trainee",
       "href": "https://ineuron.ai",
-      "logo": "",
+      "logo": "/logos/ineuron.png",
       "location": "Bengaluru, India",
       "start": "Sep 2021",
       "end": "Dec 2021",
@@ -168,7 +168,7 @@
       "company": "HemansAI",
       "role": "NLP Engineer Intern",
       "href": "",
-      "logo": "",
+      "logo": "/logos/hemansai.png",
       "location": "Remote",
       "start": "Dec 2020",
       "end": "Feb 2021",
@@ -276,28 +276,32 @@
       "venue": "IEEE",
       "date": "Aug 2026",
       "authors": "",
-      "url": "https://ieeexplore.ieee.org/document/11633084"
+      "url": "https://ieeexplore.ieee.org/document/11633084",
+      "logo": "/logos/ieee.svg"
     },
     {
       "title": "An E2E Framework to Improve Agentic AI Using GRPO Reasoning and Continuous Memory Based Learning",
       "venue": "IEEE",
       "date": "Aug 2026",
       "authors": "",
-      "url": "https://ieeexplore.ieee.org/document/11632426"
+      "url": "https://ieeexplore.ieee.org/document/11632426",
+      "logo": "/logos/ieee.svg"
     },
     {
       "title": "A Framework for Enhancing Product Recommender Systems with Knowledge Graph Embeddings, Multi Agents, LLM and Real-Time Image Search",
       "venue": "ICECET 2025 · IEEE",
       "date": "2025",
       "authors": "",
-      "url": "https://ieeexplore.ieee.org/document/11472596"
+      "url": "https://ieeexplore.ieee.org/document/11472596",
+      "logo": "/logos/ieee.svg"
     },
     {
       "title": "RAG Beyond Text: Enhancing Image Retrieval in RAG Systems",
       "venue": "ICECET 2024 · IEEE",
       "date": "2024",
       "authors": "",
-      "url": "https://ieeexplore.ieee.org/document/10698598"
+      "url": "https://ieeexplore.ieee.org/document/10698598",
+      "logo": "/logos/ieee.svg"
     }
   ],
 
@@ -427,14 +431,14 @@
 
   "hobbies": [
     {
-      "title": "Avid reader",
+      "title": "Reading",
       "icon": "reading",
       "note": "Mostly lost in literature classics, poetry and contemporary fiction.",
       "items": [],
       "more": "Have you read East of Eden? (You should.)"
     },
     {
-      "title": "Gamer",
+      "title": "Gaming",
       "icon": "gamepad",
       "note": "The list never finishes, btw.",
       "items": ["Forza", "GTA", "Zelda: BotW & TotK", "Stardew Valley", "Dave the Diver", "The Witcher 3", "Cult of the Lamb"],
@@ -489,7 +493,7 @@
       "school": "Haldia Institute of Technology",
       "degree": "B.Tech, Computer Science Engineering",
       "href": "",
-      "logo": "",
+      "logo": "/logos/haldia.png",
       "start": "2019",
       "end": "2023",
       "details": "CGPA 9.31 / 10"

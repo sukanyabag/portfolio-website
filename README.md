@@ -55,6 +55,8 @@ If you save broken JSON, the site keeps showing the last good version and shows 
 
 **Images:** drop files in `public/` (for example `public/me.jpg`) and reference them as `"/me.jpg"`.
 
+**Company logos:** live in `public/logos/` and are set per entry with `"logo": "/logos/name.png"` in `experience` and `education`. A square PNG or SVG works best; leave `logo` empty to show the first letter instead.
+
 **Icon names:** `github`, `linkedin`, `x`, `twitter`, `medium`, `youtube`, `globe`, `link`, `mail`, `phone`, `map`, `file`, `resume`, `download`, `book`, `award`, `briefcase`, `folder`, `code`, `sparkles`, `graduation`, `user`, `send`, `home`, `scroll`, `trophy`, `heart`. Unknown names fall back to a link icon. Add more in `src/components/Icon.jsx`.
 
 ### Custom free-text sections
